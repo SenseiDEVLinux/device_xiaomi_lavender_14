@@ -17,7 +17,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Device config
 TARGET_HAS_UDFPS := false
 TARGET_ENABLE_BLUR := false
-TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_NAME := lineage_lavender
