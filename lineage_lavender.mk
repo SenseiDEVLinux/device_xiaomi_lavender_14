@@ -20,9 +20,6 @@ TARGET_ENABLE_BLUR := false
 TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# Maintainer
-ALPHA_MAINTAINER := SenseiDeveloper
-
 PRODUCT_NAME := lineage_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
