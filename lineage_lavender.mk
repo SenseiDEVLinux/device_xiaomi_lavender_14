@@ -15,8 +15,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device config
-TARGET_HAS_UDFPS := false
+TARGET_USES_MINI_GAPPS := true
 TARGET_ENABLE_BLUR := false
+BUILD_BCR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_NAME := lineage_lavender
