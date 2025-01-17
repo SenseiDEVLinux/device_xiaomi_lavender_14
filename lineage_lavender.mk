@@ -15,7 +15,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device config
-TARGET_USES_PICO_GAPPS := true
+WITH_GMS := false
 TARGET_ENABLE_BLUR := false
 BUILD_BCR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
