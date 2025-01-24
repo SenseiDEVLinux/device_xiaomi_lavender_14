@@ -2,8 +2,8 @@ echo 'Hello! we need to clone stuffs needed for your device, please wait tll pro
 
 echo 'Nuke Source stuffs'
 	rm -rf hardware/qcom-caf/msm8998/audio
-  rm -rf hardware/qcom-caf/msm8998/media
-  rm -rf hardware/qcom-caf/msm8998/display
+        rm -rf hardware/qcom-caf/msm8998/media
+        rm -rf hardware/qcom-caf/msm8998/display
 	rm -rf hardware/xiaomi
 
 echo 'Cloning Dolby Atmos'
