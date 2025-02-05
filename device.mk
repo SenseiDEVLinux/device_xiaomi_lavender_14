@@ -171,6 +171,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \
     libion.vendor
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi
+
 # GNSS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0.vendor \
