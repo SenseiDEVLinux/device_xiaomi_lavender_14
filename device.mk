@@ -445,6 +445,10 @@ PRODUCT_PACKAGES += \
     libpng.vendor \
     libprocessgroup.vendor
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service-qti \
