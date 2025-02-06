@@ -241,3 +241,6 @@ vendor.usb.rndis.func.name=rndis_bam
 
 # Zygote
 zygote.critical_window.minute=10
+
+ro.egl.blobcache.multifile=true
+ro.egl.blobcache.multifile_limit=33554432
