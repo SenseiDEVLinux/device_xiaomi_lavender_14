@@ -7,3 +7,4 @@
 runtime_resource_overlay {
     name: "FrameworkOverlayLavender",
     vendor: true,
+}
