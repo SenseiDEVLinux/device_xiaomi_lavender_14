@@ -1,5 +1,5 @@
 # ART
-ro.vendor.qti.am.reschedule_service=true
+ro.vendor.qti.am.reschedule_servi=true
 dalvik.vm.boot-dex2oat-threads=8
 dalvik.vm.dex2oat-threads=8
 dalvik.vm.dex2oat-filter=quicken
