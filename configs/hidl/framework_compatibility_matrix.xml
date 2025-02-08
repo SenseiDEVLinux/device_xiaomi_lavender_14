@@ -31,10 +31,13 @@
         <instance>default</instance>
     </interface>
 </hal>
-<hal format="hidl">
+<hal format="hidl" optional="true">
         <name>android.hardware.configstore</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.1::ISurfaceFlingerConfigs/default</fqname>
+        <version>1.1</version>
+        <interface>
+        <name>ISurfaceFlingerConfigs</name>
+        <instance>default</instance>
+        </interface>
 </hal>
 <hal format="hidl" optional="true">
         <name>android.hardware.wifi.supplicant</name>
